@@ -1,0 +1,6 @@
+Deutschmark
+dollar
+franc
+pound
+Canadian dollar
+yen

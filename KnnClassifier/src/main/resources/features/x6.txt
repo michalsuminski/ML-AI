@@ -1,0 +1,6 @@
+Chancellor,President
+Governor,President,Chief Justice
+President,Prime Minister
+Monarch,Prime Minister,Chief Justice
+Governor General,Prime Minister
+Emperor,Prime Minister

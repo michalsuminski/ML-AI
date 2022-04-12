@@ -1,0 +1,6 @@
+Neuschwanstein Castle,Cologne Cathedral,East Side Gallery,Aachen Cathedral,Bastei Bridge,Haus Römer,Elbphilharmonie,Frauenkirche,Marienplatz,Rathaus,Heidelberg Castle,Porta Nigra,Berliner Dom,Wieskirche
+Empire State Building,The White House,Washington National Cathedral,Jefferson Memorial,Golden Gate Bridge,United States Capitol,Lincoln Memorial,Biltmore Estate,Chrysler Building,Vietnam Veterans Memorial,St.Patrick's Cathedral,Washington Monument
+Eiffel Tower,Palace of Versailles,Pont du Gard,Mont Blanc,Chateau du Chambord,Mont-Saint-Michel,Arles Amphitheatre,Les Invalides,Opera Garnier,Panthéon
+Buckingham Palace,Stonehenge,Durdle Door,Houses Of Parliament,Big Ben,Windsor Castle,Canterbury Cathedral,The White Cliffs of Dover,Blackpool Tower,Cheddar Gorge,Angel of the North,Tower Bridge
+Atwater Market,Province House,Sharp Centre for Design,Habitat 67,Museum of Anthropology at the University of British Columbia,Gooderham Building,Royal Canadian Mint,Lake Louise
+The Tokyo Imperial Palace,Tokyo Skytree,The Tokyo Metropolitan Government Building,Senjo-Ji temple,KThe Temple of the Golden Pavilion,The Imperial Palace,The Fushimi Inari Shrine,The Hiroshima Peace Memorial Park,Osaka Castle,White Heron Castle of Himeji

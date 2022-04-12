@@ -1,0 +1,6 @@
+Frankfurt Stock Exchange
+New York Stock Exchange
+Paris Stock Exchange, French Stock Exchange
+London Stock Exchange
+Toronto Stock Exchange
+Tokyo Stock Exchange

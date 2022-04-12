@@ -1,0 +1,6 @@
+Nordsee,North German Plain,Schleswig-Holstein Uplands,Mecklenburg Ground Moraine Lowland,Dümmer and Ems-Hunte Geest,Weser-Aller Plains and Geest,Stade Geest,East Lusatian Foothills,Eifel,Venn Foreland,Moselle Valley,Hunsrück,Middle Rhine Valley,Süder Uplands-Westerwald,Lahn Valley,Taunus
+New England Region,Mid-Atlantic Region,Southern Region,Mid-West Region,South-West Region,Rocky Mountains,Pacific Coastal Region
+Auvergne - Rhône-Alpes,Bretagne,Brittany,Bourgogne,Franche-Comte,Val de Loire,Grand Est,Hauts de France,Ile de France,Nouvelle Aquitaine,Normandie,Occitanie,Pays de la Loire,Provence
+England,Scotland,Wales,Northern Ireland,South East,London,North West,East of England,West Midlands,South West,Yorkshire and the Humber,East Midlands,North East,UK
+Canadian Shield,Hudson Bay Lowland,Arctic Lands,Interior Plains,Cordillera,Great Lakes,Appalachian Uplands
+Hokkaido,Tohoku,Kanto,Chubu,Kinki,Chugoku,Shikoku,Kyushu

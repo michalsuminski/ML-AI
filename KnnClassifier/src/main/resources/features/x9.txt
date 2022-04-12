@@ -1,0 +1,6 @@
+Cologne,Düsseldorf,Trier,Marburg,Mainz,Koblenz,Aachen,Bernkastel-Kues,Boppard,Bacharach
+New York,Los Angeles,Chicago,Houston,Phoenix,Philadelphia,San Antonio,San Diego,Dallas,San Jose
+Paris,Nice,Lyon,Bordeaux,Marseilles,Strasbourg,Lille,Rouen,Amiens,Toulouse
+York,Bath,Belfast,Cambridge,Cardiff,Manchester,Glasgow,Liverpool,Edinburgh,London
+Ottawa,Toronto,Halifax,Vancouver,Quebec,Winnipeg,Calgary,Charlottetown,Montreal,Victoria
+Tokyo,Kyoto,Osaka,Hiroshima,Nara,Sapporo,Fukuoka,Kanazawa,Kobe,Nagasaki
