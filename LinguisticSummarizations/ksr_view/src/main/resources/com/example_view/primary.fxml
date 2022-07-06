@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import org.controlsfx.control.CheckComboBox?>
+
+<TabPane xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example_view.PrimaryController">
+   <tabs>
+      <Tab text="Generating summaries">
+         <content>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="1147.0">
+                <children>
+                    <HBox layoutX="32.0" layoutY="59.0" prefHeight="80.0" prefWidth="1100.0" spacing="10.0">
+                        <children>
+                            <VBox prefHeight="81.0" prefWidth="217.0" spacing="10.0">
+                                <children>
+                                    <Label fx:id="quantifierLabelId" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="188.0" text="Quantifiers" />
+                                    <CheckComboBox fx:id="quantifierChoiceId" prefHeight="28.0" prefWidth="200.0" />
+                                </children>
+                            </VBox>
+                            <VBox prefHeight="85.0" prefWidth="218.0" spacing="10.0">
+                                <children>
+                                    <Label fx:id="summarizerLabelId" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="188.0" text="Summarizers" />
+                                    <CheckComboBox fx:id="summarizerCBId" prefHeight="28.0" prefWidth="200.0" />
+                                </children>
+                            </VBox>
+                            <ButtonBar prefHeight="81.0" prefWidth="230.0">
+                                <buttons>
+                                    <Button fx:id="generateSumFirstId" alignment="CENTER" contentDisplay="CENTER" minWidth="72.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="200.0" text="Generate one entity summaries" />
+                                </buttons>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                            </ButtonBar>
+                        <VBox prefHeight="82.0" prefWidth="219.0" spacing="10.0">
+                           <children>
+                              <Label fx:id="summarizerLabelId1" alignment="CENTER" contentDisplay="CENTER" lineSpacing="10.0" prefHeight="32.0" prefWidth="188.0" text="Subjects" />
+                              <CheckComboBox fx:id="subjects" prefHeight="28.0" prefWidth="200.0" />
+                           </children>
+                        </VBox>
+                        <ButtonBar prefHeight="78.0" prefWidth="266.0">
+                           <buttons>
+                              <Button fx:id="generateMultipleSum" alignment="CENTER" contentDisplay="CENTER" minWidth="72.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="233.0" text="Generate multiple entity summaries" />
+                           </buttons>
+                        </ButtonBar>
+                        </children>
+                    </HBox>
+                    <VBox layoutX="351.0" layoutY="462.0" prefHeight="48.0" prefWidth="431.0" />
+                    <Label layoutX="506.0" layoutY="25.0" text="Summaries">
+                        <font>
+                            <Font name="System Bold" size="23.0" />
+                        </font>
+                    </Label>
+                    <TableView fx:id="tableViewOneEntity" layoutX="3.0" layoutY="221.0" prefHeight="233.0" prefWidth="1126.0">
+                        <columns>
+                            <TableColumn fx:id="col1" prefWidth="430.0" text="Summary" />
+                            <TableColumn fx:id="col2" minWidth="0.0" prefWidth="55.0" text="T1" />
+                            <TableColumn fx:id="col3" minWidth="0.0" prefWidth="55.0" text="T2" />
+                            <TableColumn fx:id="col4" prefWidth="55.0" text="T3" />
+                            <TableColumn fx:id="col5" prefWidth="55.0" text="T4" />
+                            <TableColumn fx:id="col6" prefWidth="55.0" text="T5" />
+                            <TableColumn fx:id="col7" prefWidth="55.0" text="T6" />
+                            <TableColumn fx:id="col8" prefWidth="55.0" text="T7" />
+                            <TableColumn fx:id="col9" minWidth="9.0" prefWidth="55.0" text="T8" />
+                            <TableColumn fx:id="col10" minWidth="0.0" prefWidth="55.0" text="T9" />
+                            <TableColumn fx:id="col11" minWidth="0.0" prefWidth="55.0" text="T10" />
+                            <TableColumn fx:id="col12" prefWidth="55.0" text="T11" />
+                            <TableColumn fx:id="col13" prefWidth="51.0" text="T12" />
+                        <TableColumn fx:id="saveCol" prefWidth="39.0" text="Save" />
+                        </columns>
+                    </TableView>
+                  <HBox layoutX="119.0" layoutY="185.0" prefHeight="25.0" prefWidth="910.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Enter weights to generate the optimal quality measure" wrappingWidth="314.54296875" />
+                        <TextField fx:id="w1" text="0.09" />
+                        <TextField fx:id="w2" text="0.09" />
+                        <TextField fx:id="w3" text="0.09" />
+                        <TextField fx:id="w4" text="0.09" />
+                        <TextField fx:id="w5" text="0.09" />
+                        <TextField fx:id="w6" text="0.09" />
+                        <TextField fx:id="w7" text="0.09" />
+                        <TextField fx:id="w8" text="0.09" />
+                        <TextField fx:id="w9" text="0.09" />
+                        <TextField fx:id="w10" text="0.09" />
+                        <TextField fx:id="w11" text="0.09" />
+                     </children>
+                  </HBox>
+                  <Button fx:id="select_all_save" layoutX="1001.0" layoutY="461.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="128.0" text="Select all to save" />
+                  <Button fx:id="save_to_file" layoutX="1015.0" layoutY="494.0" mnemonicParsing="false" text="Save summaries" />
+                  <HBox layoutX="659.0" layoutY="139.0" prefHeight="34.0" prefWidth="379.0">
+                     <children>
+                        <HBox prefHeight="28.0" prefWidth="319.0">
+                           <children>
+                              <Label prefHeight="27.0" prefWidth="197.0" text="Type of multiple summary" />
+                              <ChoiceBox fx:id="typeOfMultipleSummary" prefHeight="28.0" prefWidth="198.0" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <Button fx:id="clear" layoutX="104.0" layoutY="461.0" mnemonicParsing="false" text="Clear table" />
+                </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+      <Tab text="Generating new summarizers and quantifiers">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <HBox layoutX="81.0" layoutY="64.0" prefHeight="186.0" prefWidth="1083.0" spacing="10.0">
+                     <children>
+                        <VBox prefHeight="76.0" prefWidth="179.0" spacing="10.0">
+                           <children>
+                              <Label fx:id="quantifierLabelId1" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="188.0" text="Quantifier name" />
+                              <TextField fx:id="quantifierName" />
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="77.0" prefWidth="173.0" spacing="10.0">
+                           <children>
+                              <Label fx:id="summarizerLabelId2" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="188.0" text="Quantifier type" />
+                              <ChoiceBox fx:id="quantifierType" prefHeight="25.0" prefWidth="193.0" />
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="81.0" prefWidth="167.0" spacing="10.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="188.0" text="Type of function" />
+                              <ChoiceBox fx:id="quantifierFunction" prefHeight="25.0" prefWidth="193.0" />
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Label fx:id="aLabel" prefHeight="17.0" prefWidth="94.0" text="a" />
+                              <TextField fx:id="a" prefHeight="25.0" prefWidth="83.0" />
+                              <Label fx:id="bLabel" prefHeight="17.0" prefWidth="94.0" text="b" />
+                              <TextField fx:id="b" prefHeight="25.0" prefWidth="83.0" />
+                              <Label fx:id="cLabel" prefHeight="17.0" prefWidth="94.0" text="c" />
+                              <TextField fx:id="c" prefHeight="25.0" prefWidth="83.0" />
+                              <Label fx:id="dLabel" prefHeight="17.0" prefWidth="94.0" text="d" />
+                              <TextField fx:id="d" prefHeight="25.0" prefWidth="83.0" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="170.0" prefWidth="189.0">
+                           <children>
+                              <Button fx:id="generateQuantifier" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="56.0" prefWidth="136.0" text="Generate quantifier" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <Label layoutX="411.0" layoutY="259.0" text="Create custom summarizer">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="419.0" layoutY="14.0" text="Create custom quantifier ">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER_LEFT" layoutX="55.0" layoutY="308.0" prefHeight="183.0" prefWidth="977.0" spacing="10.0">
+                     <children>
+                        <VBox prefHeight="162.0" prefWidth="169.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="37.0" prefWidth="157.0" text="Summarizer name" />
+                              <TextField fx:id="summarizerNameGen" prefHeight="25.0" prefWidth="171.0" />
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="122.0" prefWidth="196.0">
+                           <children>
+                              <Label fx:id="summarizerLabelId21" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="188.0" text="Linguistic variable" />
+                              <ChoiceBox fx:id="summarizerRelatedID" prefHeight="22.0" prefWidth="193.0" />
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="81.0" prefWidth="167.0" spacing="10.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="24.0" prefWidth="163.0" text="Type of function" />
+                              <ChoiceBox fx:id="summarizerFunction" prefHeight="23.0" prefWidth="172.0" />
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Label fx:id="aLabel2" prefHeight="17.0" prefWidth="94.0" text="a" />
+                              <TextField fx:id="a2" prefHeight="25.0" prefWidth="83.0" />
+                              <Label fx:id="bLabel2" prefHeight="17.0" prefWidth="94.0" text="b" />
+                              <TextField fx:id="b2" prefHeight="25.0" prefWidth="83.0" />
+                              <Label fx:id="cLabel2" prefHeight="17.0" prefWidth="94.0" text="c" />
+                              <TextField fx:id="c2" prefHeight="25.0" prefWidth="83.0" />
+                              <Label fx:id="dLabel2" prefHeight="17.0" prefWidth="94.0" text="d" />
+                              <TextField fx:id="d2" prefHeight="25.0" prefWidth="83.0" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="183.0" prefWidth="215.0">
+                           <children>
+                              <Button fx:id="generateSummarizer" mnemonicParsing="false" prefHeight="46.0" prefWidth="168.0" text="Generate summarizer" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+   </tabs>
+</TabPane>
